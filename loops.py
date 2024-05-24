@@ -4,7 +4,6 @@ def index_of_by_index(word, list, index):
             return new_index
     return -1
 
-
 def index_of_empty(list):
     for index, color in enumerate(list):
         if color == "":
